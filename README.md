@@ -1,1 +1,2 @@
-# android_device_sony_E2303
+# Sony Xperia M4 Aqua (E2303)
+
