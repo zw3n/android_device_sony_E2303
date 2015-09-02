@@ -1,1 +1,1 @@
-add_lunch_combo cm_e2303-userdebug
+add_lunch_combo cm_tulip-userdebug

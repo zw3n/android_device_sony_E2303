@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/sony/e2303/BoardConfigVendor.mk
+-include vendor/sony/tulip/BoardConfigVendor.mk
 
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
@@ -32,6 +32,6 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2675703808
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 4399824896
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-TARGET_PREBUILT_KERNEL := device/sony/e2303/kernel
+#TARGET_PREBUILT_KERNEL := device/sony/e2303/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
