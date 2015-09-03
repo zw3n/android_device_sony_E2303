@@ -41,7 +41,7 @@ TARGET_PREBUILT_KERNEL := device/sony/tulip/kernel
 
 BOARD_KERNEL_BOOTIMG := true
 BOARD_CUSTOM_MKBOOTIMG := mkqcdtbootimg
-BOARD_MKBOOTIMG_ARGS := --dt_dir $(OUT)/dtb
+BOARD_MKBOOTIMG_ARGS := --dt_dir device/sony/tulip/dtb
 BOARD_MKBOOTIMG_ARGS +=  --ramdisk_offset $(BOARD_RAMDISK_OFFSET) --tags_offset $(BOARD_KERNEL_TAGS_OFFSET) --dt_version 2
 
 BOARD_KERNEL_CMDLINE :=console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=kanuti user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3 
