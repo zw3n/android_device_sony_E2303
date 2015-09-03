@@ -1,2 +1,1 @@
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_tulip.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/device_tulip.mk

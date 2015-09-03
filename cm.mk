@@ -8,14 +8,14 @@ PRODUCT_RELEASE_NAME := tulip
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/sony/e2303/device_e2303.mk)
+$(call inherit-product, device/sony/tulip/device_tulip.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := e2303
+PRODUCT_DEVICE := tulip
 PRODUCT_NAME := cm_tulip
-PRODUCT_BRAND := sony
-PRODUCT_MODEL := e2303
-PRODUCT_MANUFACTURER := sony
+PRODUCT_MODEL := Xperia M4 Aqua
+PRODUCT_BRAND := Sony
+PRODUCT_MANUFACTURER := Sony
 
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
